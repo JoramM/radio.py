@@ -38,4 +38,5 @@ This will start the Flask webserver which is accessible over http://localhost:80
 ## Useful Links
 * [Jinja2 Documentation](http://jinja.pocoo.org/docs/)
 * [Flask Documentation](flask.pocoo.org/docs/)
+* [VLC Library GIT](http://git.videolan.org/?p=vlc/bindings/python.git;a=tree;f=generated;b=HEAD)
 * [Bindings for the LibVLC public API](https://www.olivieraubert.net/vlc/python-ctypes/doc/)
