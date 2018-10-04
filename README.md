@@ -3,28 +3,33 @@
 This is a simple webapp written in Python 3 to control a RasperryPi, which is used as a radio. :)
 
 ## Setup
-The LibVLC API is used to play music with the VLC Player.
-
-So you have to install the [VLC Player](https://www.videolan.org/vlc/#download). For Ubuntu use:
+1. Clone this repository
+```bash
+git clone https://github.com/JoramM/radio.py.git
 ```
+Or download and extract the zip file.
+
+2. Install the [VLC Player](https://www.videolan.org/vlc/#download). For Ubuntu use:
+```bash
 sudo apt-get insrall vlc
 ```
+The LibVLC API is used to play music with the VLC Player (see "Useful Links").
 
-Navigate to project directory and install the Python requirements:
-```
+3. Navigate to project directory and install the Python requirements:
+```bash
 pip install -r requirements.txt
 ```
 If you have Python 2.7 **and** Python 3 installed, use this command instead:
-```
+```bash
 pip3 install -r requirements.txt
 ```
 
 ## Start
-```
+```bash
 python main.py
 ```
 If you have Python 2.7 **and** Python 3 installed, use this command instead:
-```
+```bash
 python3 main.py
 ```
 
