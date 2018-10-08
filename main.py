@@ -8,7 +8,7 @@ menu = [
     ('/', 'Home')
 ]
 
-player = vlc.MediaPlayer("file:///home/joram/dev/radio.py/music/1 - Holy Water.mp3")
+player = vlc.MediaPlayer()
 
 @app.route("/")
 def index():
@@ -16,6 +16,7 @@ def index():
 
 @app.route("/play")
 def play_music():
+    player.set_mrl("file:///home/joram/dev/radio.py/music/1 - Holy Water.mp3")
     player.play()
     return redirect(url_for('index'))   # stay on index-page
 
